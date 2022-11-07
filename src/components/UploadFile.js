@@ -1,6 +1,5 @@
 import React from "react";
 import "./Components.css";
-import { FaCloudDownloadAlt } from "react-icons/fa";
 
 function UploadFile() {
   return (
@@ -18,12 +17,6 @@ function UploadFile() {
           marginTop: -10,
         }}
       >
-        <FaCloudDownloadAlt
-          style={{
-            textAlign: "center",
-            fontSize: 58,
-          }}
-        />
         <div>
           <p>Click here to submit</p>
         </div>
