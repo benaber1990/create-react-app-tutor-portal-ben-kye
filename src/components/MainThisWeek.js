@@ -7,6 +7,13 @@ const MainThisWeek = ({ title, description }) => {
       <div className="MainThisWeekCard">
         <h2 className="HeaderFont">{title}</h2>
         <p>{description}</p>
+        <div style={{
+            height: 75,
+            width: 125,
+            backgroundColor: 'blue'
+        }}>
+
+        </div>
       </div>
     </div>
   );
