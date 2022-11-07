@@ -13,7 +13,10 @@ const App = () => {
       borderColor: 'black',
       borderStyle: 'dashed',
       borderWidth: 1, 
-      borderRadius: 15
+      borderRadius: 15,
+      alignItems: 'center',
+      marginRight: 75,
+      marginLeft: 75
     }}>
       <MainThisWeek title="Upload Your Work"/>
     </div>
