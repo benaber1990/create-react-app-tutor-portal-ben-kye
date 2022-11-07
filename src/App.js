@@ -9,6 +9,14 @@ const App = () => {
     <MainThisWeek title="Latest Lesson Link"/>
     <MainThisWeek title="Student Work Showcase"/>
     </div>
+    <div style={{
+      borderColor: 'black',
+      borderStyle: 'dashed',
+      borderWidth: 1, 
+      borderRadius: 15
+    }}>
+      <MainThisWeek title="Upload Your Work"/>
+    </div>
   </div>
 }
 
